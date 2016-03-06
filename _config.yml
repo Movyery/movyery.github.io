@@ -3,6 +3,11 @@ description:      "不喧哗,自有声"
 url:              "http://movyery.me"  
 signoff:          "林淼渺"
 
+# About/contact
+owner: 
+  name:           "林淼渺"
+  email:          movyery@sina.co
+
 links:
   - name:         Blog
     url:          http://movyery.me
