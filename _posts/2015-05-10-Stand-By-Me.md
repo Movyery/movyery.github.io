@@ -3,7 +3,7 @@ layout: post
 title: 愿与君同行
 categories: [blog ]
 tags: [life, ]
-description: 
+description: 能有一个人，在少女时期时刻指导自己，给自己关爱和帮助，并从未停止对我的告诫，这种幸运值得珍惜。
 ---
 
 
