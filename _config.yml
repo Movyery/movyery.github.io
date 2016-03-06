@@ -12,13 +12,13 @@ links:
   - name:         Blog
     url:          /
   - name:         Rss
-    url:          /Feed.xml
+    url:          /feed.xml
     external:     true
   - name:         Tools
-    url:          /Tools
+    url:          /tools
     external:     true
   - name:         About
-    url:          /About
+    url:          /about
     external:     true
 
 highlighter:      rouge
