@@ -6,11 +6,11 @@ signoff:          "林淼渺"
 # About/contact
 owner: 
   name:           "林淼渺"
-  email:          movyery@sina.co
+  email:          movyery@sina.com 
 
 links:
   - name:         Blog
-    url:          http://movyery.me
+    url:          /
   - name:         Rss
     url:          /feed.xml
     external:     true
