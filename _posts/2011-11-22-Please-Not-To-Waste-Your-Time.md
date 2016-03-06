@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【咚咚锵】请别辜负你最好的时光
+title: 请别辜负你最好的时光
 categories: [blog ]
 tags: [life, ]
 description: 请掬起一捧时光，收入你梦想的行囊
