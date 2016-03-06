@@ -18,7 +18,7 @@ links:
 
 highlighter:      rouge
 
-markdown:         markdown: kramdown
+markdown:         kramdown
 kramdown:
   input:          GFM
 
