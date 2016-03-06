@@ -1,23 +1,32 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url, without a slash at the end.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title:            林淼渺
+description:      不喧哗 自有声
+url:              movyery.me # Site url, without a slash at the end.
+signoff:          林淼渺 # Your name.
 
 links:
+  - name:         Blog
+    url:          http://movyery.me
+  - name:         Rss
+    url:          /feed.xml
+    external:     true
+  - name:         Tools
+    url:          /tools
+    external:     true
   - name:         About
     url:          /about
-  - name:         Blog
-    url:          http://muan.co
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
     external:     true
 highlighter:      pygments
 permalink:        pretty
-markdown:         redcarpet
+
+markdown:         markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
 redcarpet:
   extensions:
     - smart
+
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
