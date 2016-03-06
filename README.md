@@ -1,17 +1,34 @@
-Scribble
-========
+## 吕小荣的笔记
 
-A Jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
+这是我的博客，使用Jekyll + Markdown + Github Pages搭建，代码托管在Github。
+
+## 作者简介
+
+前医生 
+Product Manager   
+Ruby Programmer  
+
+## Follow me
+
+* [github](https://github.com/xiaoronglv) 
+* [Weibo](http://weibo.com/xiaoronglv/)
+* [Twitter](http://twitter.com/xiaoronglv/)
+
+Mail: xiaoronglv(at)gmail(dot)com
+
+## Scribble Theme
+
+A jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
 <br />
 [More themes](https://github.com/muan/muan.github.com/releases).
 
-![screenshot](https://cloud.githubusercontent.com/assets/1153134/11014801/12c7940a-853e-11e5-9f7b-87325c9bc695.png)
+![screenshot](http://scribble.muan.co/images/screenshot.png)
 
-There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind.
+There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind. 
 
-This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme.
+This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme. 
 
-The theme is mobile optimized but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
+The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
 
 ---
 
@@ -21,7 +38,7 @@ The theme is mobile optimized but I did not check browser compatibility. It look
 2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
 3. `bundle install`
 4. **Using older versions of Jekyll**<br />
-  Build and run Jekyll using `jekyll --server --auto`.<br />
+  Build and run jekyll using `jekyll --server --auto`.<br />
   **Using [Jekyll 1.0](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/)**<br />
   Build Jekyll using `jekyll build`.<br />
   Then run Jekyll using `jekyll serve --watch`, go to http://localhost:4000 for your site.
@@ -30,9 +47,15 @@ The theme is mobile optimized but I did not check browser compatibility. It look
 
 ### Make it yours
 
-1. I have extracted most user specific information to `_config.yml`, you should be able to set up almost everything from it.
+1. I have extract most user specific information to `_config.yml`, you should be able to set up almost everything from it.
 2. Change about.md for blog intro.
 3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
+
+---
+
+### GitHub Pages stuff
+
+The `gh-pages` branch of this repository is [the project page](http://scribble.muan.co), which **should not** be used as your blog, so use `master` branch for your blog. This is assuming your blog repository will be called [your-username].github.io, if tis is not the case, you will need to delete the `gh-pages` repository and create a branch off the `master` branch. Hope that's clear.
 
 ---
 
