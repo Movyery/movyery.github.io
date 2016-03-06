@@ -1,4 +1,4 @@
-title:            林淼渺
+title:            楠言梦语
 description:      不喧哗 自有声
 url:              movyery.me # Site url, without a slash at the end.
 signoff:          林淼渺 # Your name.
@@ -15,17 +15,27 @@ links:
   - name:         About
     url:          /about
     external:     true
-highlighter:      pygments
-permalink:        pretty
+
+highlighter:      rouge
 
 markdown:         markdown: kramdown
 kramdown:
-  input: GFM
+  input:          GFM
 
-highlighter: rouge
-redcarpet:
-  extensions:
-    - smart
+
+
+gems: 
+- jekyll-gallery-generator
+- jekyll-paginate
+permalink:        none
+paginate:         8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:         Asia/Shanghai
+
+
+
 
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
