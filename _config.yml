@@ -11,9 +11,6 @@ owner:
 links:
   - name:         Blog
     url:          /
-  - name:         Themes
-    url:          /themes
-    external:     true
   - name:         Tags
     url:          /tags
     external:     true
