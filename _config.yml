@@ -14,14 +14,17 @@ links:
   - name:         Themes
     url:          /themes
     external:     true
-  - name:         Rss
-    url:          /feed.xml
+  - name:         Tags
+    url:          /tags
     external:     true
   - name:         Tools
     url:          /tools
     external:     true
   - name:         About
     url:          /about
+    external:     true
+  - name:         Rss
+    url:          /feed.xml
     external:     true
 
 highlighter:      rouge
