@@ -1,20 +1,34 @@
-<link href='/images/fav.png' rel='shortcut icon'>
-<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
-<!-- - -->
-<script src='/javascripts/jquery.js' type='text/javascript'></script>
-<script src='/javascripts/pd.js' type='text/javascript'></script>
-<script src='/javascripts/basics.js' type='text/javascript'></script>
-<!-- - -->
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-{% if page.date %}
-  <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
-  <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
-  <meta content="article" property="og:type" />
+<!-- - -->
+<link href='/images/fav.png' rel='shortcut icon'>
+<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<!-- - -->
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:site_name" content="{{ site.title }}" />
+
+{% if page.image %}
+  <meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
+{% endif %}
+
+{% if page.excerpt %}
+  <meta property='og:description' content="{{ page.excerpt }}" />
 {% else %}
-  <meta content='{{ site.url }}' property='og:url' />
-  <meta content="{{ site.description }}" property='og:description' />
-  <meta content="blog" property="og:type" />
+  <meta property='og:description' content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" />
+{% endif %}
+
+{% if page.date %}    
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% else %}
+  <meta property="og:type" content="website" />
+{% endif %}
+
+{% if page.title %}
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta property="og:title" content="{{ page.title }}" />
+{% else %}
+  <title>{{ site.title }}</title>
+  <meta property="og:title" content="{{ site.title }}" />
 {% endif %}
