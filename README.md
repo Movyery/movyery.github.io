@@ -1,5 +1,22 @@
-Scribble
-========
+## 吕小荣的笔记
+
+这是我的博客，使用Jekyll + Markdown + Github Pages搭建，代码托管在Github。
+
+## 作者简介
+
+前医生 
+Product Manager   
+Ruby Programmer  
+
+## Follow me
+
+* [github](https://github.com/xiaoronglv) 
+* [Weibo](http://weibo.com/xiaoronglv/)
+* [Twitter](http://twitter.com/xiaoronglv/)
+
+Mail: xiaoronglv(at)gmail(dot)com
+
+## Scribble Theme
 
 A jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
 <br />
