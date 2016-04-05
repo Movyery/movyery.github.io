@@ -14,8 +14,8 @@ links:
   - name:         Tags
     url:          /tags
     external:     true
-  - name:         Tools
-    url:          /tools
+  - name:         Start
+    url:          /Start
     external:     true
   - name:         About
     url:          /about
