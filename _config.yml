@@ -11,8 +11,8 @@ owner:
 links:
   - name:         Blog
     url:          /
-  - name:         Tags
-    url:          /tags
+  - name:         Articles
+    url:          /Articles
     external:     true
   - name:         Start
     url:          /Start
