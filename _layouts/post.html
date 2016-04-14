@@ -16,8 +16,9 @@ layout: default
 
   </section>
 </div>
-{% include share.html %}
-
+{% if page.share != 'n' %}
+  {% include share.html %}
+{% endif %}
 
 {% if page.disqus != 'n' %}
   {% include disqus.html %}
