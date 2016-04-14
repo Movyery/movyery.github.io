@@ -10,7 +10,7 @@ owner:
 
 links:
   - name:         Blog
-    url:          /
+    url:          /Articles
   - name:         Start
     url:          /Start
     external:     true
