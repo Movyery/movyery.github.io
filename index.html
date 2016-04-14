@@ -3,4 +3,8 @@ layout: index
 title: Home
 ---
 
-{% include posts.html posts=site.posts %}
+<ul class="posts">
+  {% for post in site.posts %}
+    {% include posts.html posts=site.posts %}
+  {% endfor %}
+</ul>
