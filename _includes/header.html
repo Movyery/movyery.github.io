@@ -1,5 +1,5 @@
 <header>
 <a id="go-back-home" href="/"><img src="/images/Movyery.png" alt="scribble" width="64" height="64"></a>
-<title>{{ site.title }}</title>
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 
 </header>
