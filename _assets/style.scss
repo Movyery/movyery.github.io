@@ -1,9 +1,6 @@
 @import "bourbon/bourbon";
 
 $background: #f9f9f9;
-$text: #303030;
-$link: #bc360a;
-$link-hover: #ea9629;
 
 h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
 
@@ -11,13 +8,12 @@ html, body { height: 100%; }
 body { 
   &, * { -webkit-font-smoothing: antialiased; }
   background: $background;
-  color: $text;
+  color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
   padding: 0; margin: 0;
-  overflow-y: scroll;
 }
 img { border: none; }
 #go-back-home { margin: 40px 0 0; &:hover { background-image: none; } }
@@ -57,7 +53,7 @@ footer {
   @include clearfix;
   @include box-sizing(border-box);
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -76,7 +72,6 @@ footer {
       margin-right: 12px;
       margin-bottom: 6px;
       &:last-of-type { margin-right: 0; }
-      color: $link;
     }
     .button {
       @include inline-block;
@@ -99,12 +94,12 @@ footer {
 
 a, .as-link {
   text-decoration: none; 
-  color: $link;
+  color: #269;
   line-height: 1.4em;
   @include inline-block;
   @include transition(color 0.3s);
   &.main, &:hover { 
-    color: $link-hover;
+    color: darken(#269, 5%);
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom;
@@ -199,12 +194,6 @@ section.post {
     padding: 0; 
     @include border-bottom-radius(3px); @include border-top-radius(3px);
   }
-  img.pull-left {
-    padding: 1em 1em 1em 0;
-  }
-  img.pull-right {
-    padding: 1em 0 1em 1em;
-  }
 }
 
 section.post, section > p {
@@ -246,17 +235,9 @@ pre {
   width: 100%;
   line-height: 1.2em;
   @include box-sizing(border-box);
+
 }
-code { 
-  font-size: 13px; 
-  color: #eee; 
-  background: #39382e; 
-  padding: 2px 4px 3px; 
-  border-radius: 2px; 
-  line-height: 1.3em; 
-  @include inline-block;
-  max-width: none !important;
-}
+code { font-size: 13px; color: #eee; background: #39382e; padding: 2px 4px 3px; border-radius: 2px; line-height: 1.3em; @include inline-block; }
 img { 
   max-width: 100%;
   &.half { width: 50%; }
@@ -271,8 +252,6 @@ img {
     left: 50%;
     font-size: 60px;
   }
-  .left { margin-left: -390px; }
-  .right {  margin-left: 370px; }
+  .left { margin-left: -340px; }
+  .right {  margin-left: 320px; }
 }
-
-@import 'responsive';

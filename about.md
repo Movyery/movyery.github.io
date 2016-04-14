@@ -3,12 +3,8 @@ layout: page
 title: About
 ---
 
-一曲渺渺終將逝 此生辭酒誓不還
+Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
 
-心懷愛意 自在灑脫
+Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
 
-沮喪只是一時 笑容才應長久
-
-百首壯心馴大海 青春浩氣走千山
-
- ♥
+This theme is made by me. You have a nice day. ♥
