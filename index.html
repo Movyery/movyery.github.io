@@ -1,12 +1,6 @@
 ---
 layout: index
+title: Home
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <li>
-    <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+{% include posts.html posts=site.posts %}
