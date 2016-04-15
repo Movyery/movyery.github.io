@@ -13,9 +13,11 @@ layout: default
     {{ content }}
     {% include signoff.html %}
   </section>
-</div>
-
+  
 {% if page.disqus != 'n' %}
   {% include disqus.html %}
 {% endif %}
+
+</div>
+
 {% include links.html %}
