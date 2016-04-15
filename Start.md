@@ -209,7 +209,7 @@ description: 剛開始在光生身上，我看到了自己。
 有两种途径：
 
 1. 存放于 GitHub 博客仓库中并调用；
-2. 托管于专门的图床服务并生成直链进行调用；
+2. 托管于专门的图床服务并生成直链（Direct Link）进行调用；
 
 前者，可以进入仓库主目录，把图片存放在 `images` 文件夹下的 `miao` 下，然后，在撰写博客的 markdown 文件中，使用 `![PicName](PicLink)` 的语法添加图片。
 
@@ -229,6 +229,11 @@ description: 剛開始在光生身上，我看到了自己。
   * GithubWebCommitNewFile.png
   * WorkflowyCardsMakingGuide.png
 
+针对后者，可以使用 [七牛云](http://www.qiniu.com/)/[Imgur](http://imgur.com/)/[Photobucket](Photobucket) 等图床的服务。
+
+使用的流程一般是上传图片，获取该图片的直链，添加到 Markdown 文件中，完成。具体不再赘述。
+
+如果日常在写博客的过程中，需要使用的图片量不大，可以只考虑用 GitHub 的仓库来存放图片。
 
 ## 写作风格 
 
