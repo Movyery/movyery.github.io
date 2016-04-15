@@ -16,12 +16,13 @@ layout: default
 
   </section>
 
-{% if page.share !!= 'y' %}
-{% include share.html %}
-{% endif %}   
+
 
 </div>
 
+{% if page.share != 'y' %}
+{% include share.html %}
+{% endif %}   
 
 {% if page.disqus != 'n' %}
   {% include disqus.html %}
