@@ -213,21 +213,21 @@ description: 剛開始在光生身上，我看到了自己。
 
 前者，可以进入仓库主目录，把图片存放在 `images` 文件夹下的 `miao` 下，然后，在撰写博客的 markdown 文件中，使用 `![PicName](PicLink)` 的语法添加图片。
 
-针对此博客，存放于 `images/miao` 目录下，比如是一个名为 `cat.png` 的图片，添加的语法为：
+针对此博客，存放于 `images/miao` 目录下，比如是一个名为 `Cat.png` 的图片，添加的语法为：
 
 ```
-![](http://movyery.me/images/miao/cat.png)
+![](http://movyery.me/images/miao/Cat.png)
 ```  
 
-图片文件名在调用时需要是唯一的，才能不相互冲突，所以对于图片一般不要命名太简单。
+就是说，在那个 `Cat.png` 文件的文件名之前，还要加上这个路径 `http://movyery.me/images/miao/` 这样就可以为博客添加图片了。
 
-注意图片命名方式，可以采取[驼峰命名法](https://zh.wikipedia.org/zh/%E9%A7%9D%E5%B3%B0%E5%BC%8F%E5%A4%A7%E5%B0%8F%E5%AF%AB)，例如，对于《风之影》这本书，可以命名为：`TheShadowOfTheWind.png`。
+注意点：
 
-另外的栗子：
-
-* ImageOfTheUniversity.jpg
-* GithubWebCommitNewFile.png
-* WorkflowyCardsMakingGuide.png
+1. 图片文件名在调用时需要是唯一的，才能不相互冲突，所以对于图片一般不要命名太简单。
+2. 注意图片命名方式，可以采取[驼峰命名法](https://zh.wikipedia.org/zh/%E9%A7%9D%E5%B3%B0%E5%BC%8F%E5%A4%A7%E5%B0%8F%E5%AF%AB)，例如，对于《风之影》这本书，可以命名为：`TheShadowOfTheWind.png`。另外的栗子：
+  * ImageOfTheUniversity.jpg
+  * GithubWebCommitNewFile.png
+  * WorkflowyCardsMakingGuide.png
 
 
 ## 写作风格 
